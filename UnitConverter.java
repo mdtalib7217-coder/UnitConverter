@@ -11,15 +11,17 @@ public class UnitConverter {
         Weight weight = new Weight();
         Temperature temperature = new Temperature();
         Volume volume = new Volume();
+        Time time = new Time();
 
         while (isTrue) {
 
             System.out.println("\n****** Converter Menu ******");
-            System.out.println("1. Length");
-            System.out.println("2. Temperature");
-            System.out.println("3. Weight");
-            System.out.println("4. Volume");
-            System.out.println("5. Exit");
+            System.out.println("1. Length Conversion");
+            System.out.println("2. Temperature Conversion");
+            System.out.println("3. Weight Conversion");
+            System.out.println("4. Volume Conversion");
+            System.out.println("5. Time Conversion");
+            System.out.println("6. Exit");
 
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
@@ -99,7 +101,6 @@ public class UnitConverter {
                     System.out.println("3. Kilogram to Pound");
                     System.out.println("4. Pound to Kilogram");
 
-
                     System.out.print("Enter you choice what opertions to perform: ");
                     int wChoice = sc.nextInt();
 
@@ -121,8 +122,7 @@ public class UnitConverter {
                                 System.out.println("Result: " + weight.poundToKg(value));
                                 break;
                         }
-                    } 
-                    else {
+                    } else {
                         System.out.println("Invalid choice!");
                     }
                     break;
@@ -133,7 +133,6 @@ public class UnitConverter {
                     System.out.println("2. milliliter To Liter:");
                     System.out.println("3. liter To CubicMeter:");
                     System.out.println("4. cubicMeter To Liter:");
-
 
                     System.out.print("Enter you choice what opertions to perform: ");
                     int vChoice = sc.nextInt();
@@ -156,15 +155,44 @@ public class UnitConverter {
                                 System.out.println("Result: " + volume.cubicMeterToLiter(value));
                                 break;
                         }
-                    } 
-                    else {
+                    } else {
                         System.out.println("Invalid choice!");
                     }
                     break;
                 case 5:
-                    isTrue = false;
-                    break;            
-                 
+
+                    System.out.println("\nTime Conversion:");
+                    System.out.println("1. hour to Minute:");
+                    System.out.println("2. minute to Hour:");
+                    System.out.println("3. minute to second:");
+                    System.out.println("4. second to minute:");
+
+                    System.out.print("Enter you choice what opertions to perform: ");
+                    int timeChoice = sc.nextInt();
+
+                    if (timeChoice >= 1 && timeChoice <= 4) {
+                        System.out.print("Enter value: ");
+                        double value = sc.nextDouble();
+
+                        switch (timeChoice) {
+                            case 1:
+                                System.out.println("Result: " + time.hourToMinute(value));
+                                break;
+                            case 2:
+                                System.out.println("Result: " + time.minuteToHour(value));
+                                break;
+                            case 3:
+                                System.out.println("Result: " + time.minuteToSecond(value));
+                                break;
+                            case 4:
+                                System.out.println("Result: " + time.secondToMinute(value));
+                                break;
+                        }
+                    } else {
+                        System.out.println("Invalid choice!");
+                         break;
+                    }
+                   
                 default:
                     System.out.println("Invalid choice!");
             }
