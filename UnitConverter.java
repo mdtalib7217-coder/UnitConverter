@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Length.Length;
+
 public class UnitConverter {
     public static void main(String[] args) {
 
@@ -8,8 +10,8 @@ public class UnitConverter {
 
         // Objects
         Length length = new Length();
-        Weight weight = new Weight();
         Temperature temperature = new Temperature();
+        Weight weight = new Weight();
         Volume volume = new Volume();
         Time time = new Time();
 
