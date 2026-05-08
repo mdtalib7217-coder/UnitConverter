@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import Length.Length;
+import Length.Meter;
 
 public class UnitConverter {
     public static void main(String[] args) {
@@ -37,7 +37,7 @@ public class UnitConverter {
                     System.out.println("3. Meter to Centimeter");
                     System.out.println("4. Centimeter to Meter");
 
-                    System.out.print("Enter you choice what opertions to perform: ");
+                    System.out.print("Enter you choice what operations to perform: ");
                     int lChoice = sc.nextInt();
 
                     if (lChoice >= 1 && lChoice <= 4) {
@@ -70,7 +70,7 @@ public class UnitConverter {
                     System.out.println("3. Celsius to Kelvin");
                     System.out.println("4. Kelvin to Celsius");
 
-                    System.out.print("Enter you choice what opertions to perform: ");
+                    System.out.print("Enter you choice what operations to perform: ");
                     int tChoice = sc.nextInt();
 
                     if (tChoice >= 1 && tChoice <= 4) {
@@ -103,7 +103,7 @@ public class UnitConverter {
                     System.out.println("3. Kilogram to Pound");
                     System.out.println("4. Pound to Kilogram");
 
-                    System.out.print("Enter you choice what opertions to perform: ");
+                    System.out.print("Enter you choice what operations to perform: ");
                     int wChoice = sc.nextInt();
 
                     if (wChoice >= 1 && wChoice <= 4) {
@@ -136,7 +136,7 @@ public class UnitConverter {
                     System.out.println("3. liter To CubicMeter:");
                     System.out.println("4. cubicMeter To Liter:");
 
-                    System.out.print("Enter you choice what opertions to perform: ");
+                    System.out.print("Enter you choice what operations to perform: ");
                     int vChoice = sc.nextInt();
 
                     if (vChoice >= 1 && vChoice <= 4) {
@@ -169,7 +169,7 @@ public class UnitConverter {
                     System.out.println("3. minute to second:");
                     System.out.println("4. second to minute:");
 
-                    System.out.print("Enter you choice what opertions to perform: ");
+                    System.out.print("Enter you choice what operations to perform: ");
                     int timeChoice = sc.nextInt();
 
                     if (timeChoice >= 1 && timeChoice <= 4) {
