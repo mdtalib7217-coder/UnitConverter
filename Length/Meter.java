@@ -5,7 +5,11 @@ public class Meter {
         return meter / 1000;
     }
 
-    public double meterToCentimeter(double m) {
-        return m * 100;
+    public double meterToCentimeter(double meter) {
+        return meter * 100;
+    }
+
+    public double meterToMillimeter(double meter) {
+        return meter * 1000;
     }
 }
