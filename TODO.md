@@ -28,12 +28,12 @@
   - [ ] tonne 
 
 ### Volume
-  - [ ] liter 
-  - [ ] millimeter
-  - [ ] US gallon 
+  - [x] liter 
+  - [x] millimeter
+  - [x] US gallon 
   - [ ] UK gallon 
-  - [ ] Cubic meter 
-  - [ ] Cubic centimeter 
+  - [x] Cubic meter 
+  - [x] Cubic centimeter 
   - [ ] Cubic inch 
   - [ ] Cubic foot 
 
