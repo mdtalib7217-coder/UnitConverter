@@ -12,8 +12,4 @@ public class Meter {
     public double meterToMillimeter(double meter) {
         return meter * 1000;
     }
-
-    public double meterToMilimeter(double m) {
-        return m * 1000;
-    }
 }
