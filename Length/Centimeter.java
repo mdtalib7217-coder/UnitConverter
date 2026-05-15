@@ -8,7 +8,8 @@ public class Centimeter {
     public double centimeterToKilometer(double centimeter) {
         return centimeter / 100000;
     }
-    public double centimeterToMilimeter(double centimeter) {
-        return centimeter *10;
+
+    public double centimeterToMillimeter(double centimeter) {
+        return centimeter * 10;
     }
 }

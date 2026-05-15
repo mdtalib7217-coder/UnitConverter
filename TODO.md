@@ -30,10 +30,10 @@
 ### Volume
   - [x] liter 
   - [x] millimeter
-  - [x] US gallon 
+  - [ ] US gallon 
   - [ ] UK gallon 
   - [x] Cubic meter 
-  - [x] Cubic centimeter 
+  - [ ] Cubic centimeter 
   - [ ] Cubic inch 
   - [ ] Cubic foot 
 
