@@ -2,8 +2,7 @@ package Volume;
 
 public class Cubicmeter {
 
-    
-    public double cubicMeterToLiter(double cubicMeter){
+    public double cubicMeterToLiter(double cubicMeter) {
         return cubicMeter * 1000;
     }
     
@@ -22,5 +21,4 @@ public class Cubicmeter {
 
     
 
-    
 }
