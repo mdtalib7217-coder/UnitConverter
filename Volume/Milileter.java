@@ -11,7 +11,7 @@ public class Milileter {
         return ml / 28320;
        }
     
-       public double milliliterToUsLiquidGaloon(double ml){
+       public double milliliterToUsLiquidGallon(double ml){
         return ml / 3785 ;
        }
     

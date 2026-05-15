@@ -8,4 +8,8 @@ public class Meter {
     public double meterToCentimeter(double m) {
         return m * 100;
     }
+
+    public double meterToMilimeter(double m) {
+        return m * 1000;
+    }
 }

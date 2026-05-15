@@ -9,4 +9,8 @@ public class Kilometer {
     public double kilometerToCentimeter(double kilometer) {
         return kilometer * 100000;
     }
+
+    public double kilometerToMilimeter(double kilometer) {
+        return kilometer * 1000000;
+    }
 }

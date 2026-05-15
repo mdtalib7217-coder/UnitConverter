@@ -11,6 +11,15 @@ public class Liter {
         return liter /  1000;
     }
 
+        public double literToCubicfoot(double liter){
+        return liter /  28.317
+;
+    }
+
+        public double literToCubicInch(double liter){
+        return liter * 61.024;
+    }
+
 
     
 }
